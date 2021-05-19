@@ -1,0 +1,69 @@
+body { 
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+em { 
+	font-family: Arial, Helvetica, sans-serif;	
+}
+
+input[type=text], select {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 50%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+div {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+#book_table {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  border-collapse: collapse;
+  width: 50%;
+}
+
+#book_table td, #book_table th {
+  border: 1px solid #ddd;
+  padding:8px;
+}
+
+#book_table tr:nth-child(even){background-color: #f2f2f2;}
+
+#book_table tr:hover {background-color: #ddd;}
+
+#book_table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
+	
+#form_table td {
+  font-size: 8px;
+  border: 0px solid #ddd;
+  padding: 0px;
+}
